@@ -1,0 +1,12 @@
+# Example config file (optional). Environment variables are the primary config in this repo.
+backends:
+  - http://127.0.0.1:9001
+  - http://127.0.0.1:9002
+  - http://127.0.0.1:9003
+alpha:
+  dt: 0.1
+  tau: 10.0
+weights:
+  lat: 0.7
+  conn: 0.3
+err_penalty_ms: 500
